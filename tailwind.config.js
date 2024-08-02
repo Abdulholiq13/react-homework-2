@@ -7,8 +7,11 @@ export default {
 				center: true,
 				padding: '2rem',
 			},
-			backgroundImage: {
-				introBg: 'url(../assets/bg-image.jpg)',
+			colors: {
+				white: {
+					DEFAULT: '#ffff',
+					80: '#ffffff80',
+				},
 			},
 		},
 	},
