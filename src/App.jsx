@@ -1,3 +1,11 @@
-export default function App() {
-	return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
-}
+import { Header } from './components/header/Header';
+import { Intro } from './components/intro/Intro';
+
+export const App = () => {
+	return (
+		<>
+			<Header />
+			<Intro />
+		</>
+	);
+};
